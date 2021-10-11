@@ -1,4 +1,4 @@
-####Basic first React app to manipulate texts
+#### Basic first React app to manipulate texts
 
 ## Deployment
 
