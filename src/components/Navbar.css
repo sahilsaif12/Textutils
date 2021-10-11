@@ -1,0 +1,16 @@
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.darkMode{
+    border: none;
+    transform: scale(.6);
+    background: black;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .darkMode svg{
+    fill: whitesmoke;
+    
+  }
