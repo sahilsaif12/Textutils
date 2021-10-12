@@ -54,7 +54,7 @@ export default function TextForm(props) {
             </div>
             <div className={`container my-2 text-${textColor}`}>
                 <h2>Your text summary</h2>
-                <p>{text.split(' ').filter((value) => value !== "").length} words and {text.length} characters</p>
+                <p>{text.split(/\s+/).filter((value) => value !== "").length} words and {text.length} characters</p>
                 <p>{(text.split(' ').length * 0.008).toFixed(1)} minutes read</p>
 
                 <h3 >Preview</h3>
