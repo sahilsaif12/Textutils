@@ -3,7 +3,7 @@
     position: sticky;
     top: 0;
 }
-button{
+.button{
     border: none;
     transform: scale(.8);
     padding: 5px;

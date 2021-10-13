@@ -37,7 +37,7 @@ let modeIcon=props.mode==='dark'? <svg xmlns="http://www.w3.org/2000/svg" class=
                         </li>
 
                     </ul>
-                    <button onClick={props.click} className={`${props.mode==='light'? 'darkMode':'lightMode'}`} >{modeIcon}</button>
+                    <button onClick={props.click} className={`button ${props.mode==='light'? 'darkMode':'lightMode'}`} >{modeIcon}</button>
                     <form className="d-flex" >
                         <input className={`form-control me-2 bg-${props.mode}`}  type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-primary" type="submit">Search</button>
