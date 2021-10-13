@@ -25,11 +25,10 @@ function App() {
       setAlertBox(null)
     }, 1500);
   }
-  const toggleMode = () => {
+  const toggleMode = (event) => {
     if (Mode === 'light') {
       setMode('dark')
       showAlert("success", "Dark mode enabled")
-      // document.title="dark"
     }
     else {
       setMode('light')

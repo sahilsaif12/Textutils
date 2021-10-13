@@ -3,14 +3,16 @@
     position: sticky;
     top: 0;
 }
-.darkMode{
+button{
     border: none;
-    transform: scale(.6);
-    background: black;
+    transform: scale(.8);
     padding: 5px;
     border-radius: 50%;
+    background: transparent;
   }
   .darkMode svg{
+    fill: black;
+  }
+  .lightMode svg{
     fill: whitesmoke;
-    
   }
